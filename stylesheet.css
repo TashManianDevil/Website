@@ -1,0 +1,90 @@
+body {
+    background-image: url("https://i.pinimg.com/564x/ea/0d/a7/ea0da73cff26581becd8f47525a9ef61.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    /* background-size: auto; */
+}
+
+.header {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.10);
+    position: fixed;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+nav li {
+    display: inline-block;
+    float: none;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.10);
+    margin: 0 auto;
+    margin-top: 0;
+    text-align:center;
+}
+
+
+
+.logo {
+    float: left;
+    display: block;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.nav {
+    margin-top: 20px;
+}
+
+.nav ul li {
+    /* display: inline-block; */
+    /* padding: 5px; */
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    margin-top: 20px;
+}
+
+a:visited {
+    color: #336600;
+}
+
+a:hover {
+    color: #336600;
+}
+
+.card {
+    width: 320px;
+    background-color: white 0.5;
+    align-items: center;
+    justify-content: center;
+    margin: 55px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 300px;
+}
+
+h1 {
+    font-family: 'Mansalva', cursive;
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+}
+
+img:hover{
+    opacity: 0.5;
+}
+btn{
+    color: black 0.5;
+    margin-right: auto;
+}
